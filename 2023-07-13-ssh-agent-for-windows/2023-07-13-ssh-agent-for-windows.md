@@ -37,6 +37,18 @@ $ ssh-keygen -t ed25519 -C 'your_email@example.com'
 
 암호를 추가 하거나 비워 둘 수 있다.
 
+
+# ssh-agent에 ssh 키 추가하기
+
+```sh
+$ ssh-add ~/.ssh/id_ede5519_git_demo
+```
+
+...
+
+
+# ssh-agent를 사용하도록 Git 구성하기
+
 ```sh
 $ git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe
 ```
